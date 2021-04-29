@@ -1,0 +1,135 @@
+#wrapper {
+    margin: auto 0;
+    
+}
+
+.navbar{
+    background-color:#24224B;
+    height: 100px;
+}
+
+.nav-link{
+    margin-left: 500px;
+    color:#ffffff;
+    font-family: 'effra-regular';
+    font-weight: normal;
+    margin:18px 30px 0 0;
+}
+
+.navbar-nav {
+    margin-left:400px;
+}
+
+.logo{
+    width:80px;
+    margin-right: 30px;
+}
+
+.video-intro{
+    background-color: #252525;
+    height: 500px;
+}
+
+.banner-ricardo{
+    width: 100%;
+    padding-left: 100px;
+    justify-content: center;
+}
+
+#text{
+    margin-top:50px;
+    padding: 0 385px 0 385px;
+}
+
+.text1{
+    color:#24224B;
+    font-family: 'effra-regular';
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.text2{
+    color:#24224B;
+    font-family: 'effra-light';
+    font-weight: lighter;
+    text-align: center;
+    font-size: 18px;
+}
+
+.text3{
+    color:#24224B;
+    font-family: 'effra-heavy';
+    font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+}
+
+.formacion{
+    height: 800px;
+    background-color: #24224B;
+    margin-top: 50px;
+}
+
+.titulo-formacion{
+    color:#F08031;
+    font-family: 'effra-heavy';
+    font-weight: normal;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 3px;
+    padding-top:40px;
+}
+
+.text-formacion{
+    color:#ffffff;
+    font-family: 'effra-regular';
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    padding: 0 285px 0 285px;
+}
+
+.svg-curso{
+    width: 50px;
+}
+
+.titulo-curso{
+    color: #F08031;
+    font-family: 'effra-regular';
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    margin-top:20px;
+}
+
+.texto-curso{
+    color: #FFFFFF;
+    font-family: 'effra-regular';
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
+
+/*Fonts*/
+
+@font-face {
+    src: url('fonts/effra-regular.ttf');
+    font-family: 'effra-regular';
+}
+
+@font-face {
+    src: url('fonts/effra-light.ttf');
+    font-family: 'effra-light';
+}
+
+@font-face {
+    src: url('fonts/effra-heavy.ttf');
+    font-family: 'effra-heavy';
+}
+
+
+
