@@ -255,7 +255,6 @@
     background-color: #24224B;
     max-width: 1180px;
     text-align: center;
-    padding-left: 132px;
     padding-bottom:20px;
 }
 
@@ -287,6 +286,42 @@
     font-size: 16px;
     padding-top:73px;
 }
+ /*Sección Reencuentra*/
+
+ .lineas-fondo {
+    width: 900px;
+    position: absolute;
+    z-index: 0;
+    left: 170px;
+    top: 643px;
+}
+
+.herramientas {
+    color: #ffffff;
+    font-family: 'effra-light';
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.titulo-herramienta {
+    color: #ffffff;
+    font-family: 'effra-heavy';
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.herramienta{
+    max-width: 915px;
+    margin:auto;
+    background-color: #24224B;
+    padding-left: 220px;
+    padding-bottom:30px;
+}
+
+.img-reencuentra {
+    background-color: #ffffff;
+}
+
 
 /*Footer*/
 
