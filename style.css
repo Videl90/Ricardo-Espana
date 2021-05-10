@@ -273,8 +273,8 @@
 .renace-logo{
     width: 200px;
     position: absolute;
-    z-index: 1;
-    left: 660px;
+    z-index: 0;
+    left: 656px;
     top: 130px;
 }
 
@@ -284,7 +284,7 @@
     font-weight: normal;
     text-align: center;
     font-size: 16px;
-    padding-top:73px;
+    padding-top:60px;
 }
  /*Sección Reencuentra*/
 
@@ -322,6 +322,77 @@
     background-color: #ffffff;
 }
 
+/*Sección reconecta*/
+
+.foto-reconecta{
+    height: 499px;
+    background-image: url("images/reconecta.png");
+}
+
+.redes_sociales {
+    background-color: #24224B;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.img-redes {
+    width: 250px;
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+
+.icono-redes {
+    width: 35px;
+    padding-top: 6px;
+    margin-left:-6px;
+
+}
+
+.titulo-redes {
+    color: #ffffff;
+    font-family: 'effra-heavy';
+    font-size: 16px;
+    padding-left: 8px;
+    text-align: left;
+}
+
+.redes_sociales2 {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.medio-circulo {
+    width: 120px;
+    position: absolute;
+    z-index: 0;
+    left: 1230px;
+    top: 598px;
+}
+
+.circulo-morado {
+    width: 60px;
+    position: absolute;
+    z-index: 0;
+    left: 506px;
+    top: 836px;
+}
+
+.triangulo-naranja {
+    width: 50px;
+    position: absolute;
+    z-index: 0;
+    left: 170px;
+    top: 1505px;
+}
+
+.triangulo-amarillo{
+    width: 70px;
+    position: absolute;
+    z-index: 0;
+    left: 1147px;
+    top: 1322px;
+}
 
 /*Footer*/
 
