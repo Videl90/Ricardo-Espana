@@ -1,17 +1,17 @@
 #wrapper {
-    
+    background-color: #24224B;
     
 }
 
 .container {
-   
+    max-width: 1180px!important;
 }
 
 /*Navbar Styles*/
 
 .navbar{
     background-color:#24224B;
-    height: 100px;
+    height: 125px;
 }
 
 .nav-link{
@@ -19,6 +19,10 @@
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     margin:18px 30px 0 0;
+}
+
+.formacion2{
+    margin-right:200px;
 }
 
 .nav-link:hover {
@@ -31,8 +35,11 @@
 }
 
 .logo{
-    width:80px;
-    margin-right: 30px;
+    width: 80px;
+    position: absolute;
+    z-index: 0;
+    left: 717px;
+    top: 30px;  
 }
 
 /*video and text styles*/
@@ -49,6 +56,12 @@
     height: 238px;
 }
 
+#text-container{
+    background-color: #ffffff;
+    max-width: 100%;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
 
 #text{
     max-width: 830px;
@@ -118,6 +131,10 @@
     
 }
 
+.nombre-especialista {
+    padding-top:10px;
+}
+
 .cursos {
     text-align: center;
 }
@@ -146,14 +163,28 @@
 }
 
 .pleca-blanca {
-    border-left: thick solid #ffffff;
+    position: absolute;
+    z-index: 1;
+    left: 565px;
+    top: 2166px;
+    height: 147px;
+    width: 1px;
+}
+
+.pleca-blanca2 {
+    position: absolute;
+    z-index: 1;
+    left: 957px;
+    top: 2166px;
+    height: 147px;
+    width: 1px;
 }
 
 /*Botones servicios styles*/
 
 .servicios{
-    margin-bottom:40px;
-    
+    padding-bottom:50px;
+    background-color: #ffffff;
 }
 
 .btn_servicios{
@@ -180,10 +211,20 @@
 
 .contacto{
     background-image: url("images/contacto.png");
-    height: 500px;
-    padding-left: 72px!important;
+    height: 591px;
+    
 }
 
+.contacto2{
+    max-width: 665px;
+    padding-left: 62px;
+}
+
+.contacto3{
+    max-width: 665px;
+    padding-left: 62px;
+    padding-bottom: 10px;
+}
 
 .titulo-contacto {
     color:#ffffff;
@@ -209,8 +250,10 @@
 }
 
 .info {
-    max-width: 500px;
+    max-width: 546px;
     margin-bottom: 15px;
+    padding-left: 63px;
+    padding-top: 20px;
 }
 
 .btn-submit {
@@ -225,120 +268,6 @@
     font-weight: normal;
     font-style: italic;
 }
-
-/*Seccion Renace*/
-
-.foto-renace{
-    height: 499px;
-    background-image: url("images/renace.png");
-}
-
-.renace {
-    max-width: 1180px;
-    background-color: #24224B;
-}
-
-.text4{
-    color:#ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: normal;
-    text-align: center;
-    font-size: 24px;
-    padding-top:20px;
-    padding-bottom:50px;
-    line-height: 35px;
-}
-
-.circulos-fondo {
-    width: 600px;
-    position: absolute;
-    z-index: 0;
-    left: 749px;
-    top: 542px;
-}
-
-.cursos-renace {
-    text-align: center;
-    margin-bottom:50px
-}
-
-.contacto2{
-    background-color: #24224B;
-    max-width: 1180px;
-    text-align: center;
-    padding-bottom:20px;
-}
-
-.row {
-    margin-left: 0!important;
-}
-
-.triangulo2{
-    width: 30px;
-    position: absolute;
-    z-index: 1;
-    left: 284px;
-    top: 1120px;
-}
-
-.renace-logo{
-    width: 200px;
-    position: absolute;
-    z-index: 0;
-    left: 656px;
-    top: 130px;
-}
-
-.a-traves{
-    color:#ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: normal;
-    text-align: center;
-    font-size: 16px;
-    padding-top:74px;
-}
- /*Sección Reencuentra*/
-
- .foto-reencuentra{
-    height: 499px;
-    background-image: url("images/reencuentra.png");
-}
-
- .lineas-fondo {
-    width: 900px;
-    position: absolute;
-    z-index: 0;
-    left: 170px;
-    top: 643px;
-}
-
-.herramientas {
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.titulo-herramienta {
-    color: #ffffff;
-    font-family: 'effra-heavy';
-    text-align: center;
-    letter-spacing: 5px;
-    margin-bottom:2px;
-}
-
-.herramienta{
-    max-width: 915px;
-    margin:auto;
-    background-color: #24224B;
-    padding-left: 220px;
-    padding-bottom:30px;
-}
-
-.img-reencuentra {
-    background-color: #ffffff;
-}
-
 
 
 /*Footer*/
@@ -369,23 +298,89 @@
     margin: auto;
 }
 
+/* Media queries*/
 
-/*Fonts*/
-
-@font-face {
-    src: url('fonts/effra-regular.ttf');
-    font-family: 'effra-regular';
+@media only screen and (max-width:1199px) {
+   
 }
 
-@font-face {
-    src: url('fonts/effra-light.ttf');
-    font-family: 'effra-light';
+@media only screen and (max-width:991px) {
+    
+
 }
 
-@font-face {
-    src: url('fonts/effra-heavy.ttf');
-    font-family: 'effra-heavy';
+@media only screen and (max-width:767px) {
+
+    
 }
+
+@media only screen and (max-width:575px) {
+
+    .logo {
+        width: 0;
+    }
+
+    .re-logo {
+        margin-left: 94px;
+    } 
+    
+    .col-contacto {
+        max-width: 400px!important;
+        text-align: left;
+        margin-left: 88px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: #24224b;
+        text-align: center;
+    }
+
+    .formacion2{
+        margin-right:29px;
+    }
+
+    .navbar-nav {
+        padding-bottom:10px;
+    }
+
+    .formacion{
+        height: 2000px;
+    }
+
+    .cursos{
+        padding-top: 50px;
+    }
+    
+    .titulo-contacto{
+        margin-left:10px;
+        padding-top:20px;
+        padding-left:20px;
+    }
+
+    .contacto{
+        background-image: url("images/contacto.png");
+        height: 700px;
+        
+    }
+
+    .col-contacto{
+        margin-left: 10px;
+    }
+
+    .triangulo {
+        position: absolute;
+        z-index: 1;
+        left: 206px;
+        top: 310px;
+    }
+
+    .pleca-blanca2 {
+        width: 0px;
+    }
+}
+
+
 
 
 
