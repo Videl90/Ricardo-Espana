@@ -1,0 +1,104 @@
+#wrapper {
+    max-width: 1180px;
+    margin: auto;
+    
+}
+
+.container {
+    max-width: 1180px!important;
+}
+
+/*Navbar Styles*/
+
+.navbar{
+    background-color:#24224B;
+    height: 100px;
+}
+
+.nav-link{
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    margin:18px 30px 0 0;
+}
+
+.nav-link:hover {
+    color: #F08031;
+}
+
+.navbar-nav {
+    max-width: 800px;
+    margin: auto;
+}
+
+.logo{
+    width:80px;
+    margin-right: 30px;
+}
+
+
+/*Sección Reencuentra*/
+
+.lineas-fondo {
+    width: 900px;
+    position: absolute;
+    z-index: 0;
+    left: 170px;
+    top: 643px;
+}
+
+.herramientas {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.titulo-herramienta {
+    color: #ffffff;
+    font-family: 'effra-heavy';
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom:2px;
+}
+
+.herramienta{
+    max-width: 915px;
+    margin:auto;
+    background-color: #24224B;
+    padding-left: 220px;
+    padding-bottom:30px;
+}
+
+.img-reencuentra {
+    background-color: #ffffff;
+}
+
+/*Footer*/
+
+.footer1 {
+    background-color: #24224B;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14px;
+    max-width: 1180px;
+    height: 60px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.footer2 {
+    background-color: #5669A1;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14px;
+    max-width: 1180px;
+    height: 60px;
+    padding-top: 20px;
+    margin: auto;
+}
+

@@ -1,11 +1,10 @@
 #wrapper {
-    max-width: 1180px;
-    margin: auto;
+    
     
 }
 
 .container {
-    max-width: 1180px!important;
+   
 }
 
 /*Navbar Styles*/
@@ -17,7 +16,7 @@
 
 .nav-link{
     color:#ffffff;
-    font-family: 'effra-regular';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     margin:18px 30px 0 0;
 }
@@ -37,29 +36,36 @@
 }
 
 /*video and text styles*/
+.bold {
+    font-family: 'Raleway', sans-serif;
+}
 
 .video-intro{
     background-color: #252525;
     height: 500px;
 }
 
+.banner-ricardo{
+    height: 238px;
+}
+
 
 #text{
-    max-width: 800px;
+    max-width: 830px;
     margin: 50px auto;
 }
 
 .text1{
     color:#24224B;
-    font-family: 'effra-regular';
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     text-align: center;
     font-size: 18px;
 }
 
 .text2{
     color:#24224B;
-    font-family: 'effra-light';
+    font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     text-align: center;
     font-size: 18px;
@@ -67,14 +73,15 @@
 
 .text3{
     color:#24224B;
-    font-family: 'effra-heavy';
-    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     text-align: center;
     font-size: 24px;
+    line-height: 36px;
 }
 
 
-/*¨Formacion section styles*/
+/*Formación section styles*/
 
 .formacion{
     height: 900px;
@@ -84,8 +91,8 @@
 
 .titulo-formacion{
     color:#F08031;
-    font-family: 'effra-heavy';
-    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     text-align: center;
     font-size: 36px;
     letter-spacing: 3px;
@@ -96,7 +103,7 @@
     max-width: 880px;
     margin: 30px auto;
     color:#ffffff;
-    font-family: 'effra-regular';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     text-align: center;
     font-size: 18px;
@@ -106,6 +113,9 @@
 .especialistas {
     text-align: center;
     color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
 }
 
 .cursos {
@@ -118,18 +128,18 @@
 
 .titulo-curso{
     color: #F08031;
-    font-family: 'effra-regular';
-    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     text-align: center;
     font-size: 18px;
     margin-top:20px;
 }
 
 .texto-curso{
-    max-width: 300px;
+    max-width: 295px;
     margin: auto;
     color: #FFFFFF;
-    font-family: 'effra-regular';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     text-align: center;
     font-size: 18px;
@@ -152,7 +162,7 @@
 }
 
 .triangulo{
-    width: 30px;
+    width: 20px;
     position: absolute;
     z-index: 1;
     left: 177px;
@@ -162,8 +172,8 @@
 .titulo-servicio {
     margin-top: 50px;
     color:#24224B;
-    font-family: 'effra-heavy';
-    font-weight:normal;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
     text-align: center;
     font-size: 18px;
 }
@@ -177,8 +187,8 @@
 
 .titulo-contacto {
     color:#ffffff;
-    font-family: 'effra-heavy';
-    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     text-align: center;
     font-size: 36px;
     letter-spacing: 3px;
@@ -193,8 +203,8 @@
 
 .datos-contacto{
     display: inline;
-    font-family: 'effra-heavy';
-    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     color: #ffffff;
 }
 
@@ -211,7 +221,7 @@
 }
 
 .form-control{
-    font-family: 'effra-regular';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     font-style: italic;
 }
@@ -230,12 +240,13 @@
 
 .text4{
     color:#ffffff;
-    font-family: 'effra-regular';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     text-align: center;
     font-size: 24px;
     padding-top:20px;
     padding-bottom:50px;
+    line-height: 35px;
 }
 
 .circulos-fondo {
@@ -243,7 +254,7 @@
     position: absolute;
     z-index: 0;
     left: 749px;
-    top: 642px;
+    top: 542px;
 }
 
 .cursos-renace {
@@ -280,13 +291,18 @@
 
 .a-traves{
     color:#ffffff;
-    font-family: 'effra-regular';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     text-align: center;
     font-size: 16px;
-    padding-top:60px;
+    padding-top:74px;
 }
  /*Sección Reencuentra*/
+
+ .foto-reencuentra{
+    height: 499px;
+    background-image: url("images/reencuentra.png");
+}
 
  .lineas-fondo {
     width: 900px;
@@ -298,7 +314,7 @@
 
 .herramientas {
     color: #ffffff;
-    font-family: 'effra-light';
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -308,6 +324,7 @@
     font-family: 'effra-heavy';
     text-align: center;
     letter-spacing: 5px;
+    margin-bottom:2px;
 }
 
 .herramienta{
@@ -322,84 +339,14 @@
     background-color: #ffffff;
 }
 
-/*Sección reconecta*/
 
-.foto-reconecta{
-    height: 499px;
-    background-image: url("images/reconecta.png");
-}
-
-.redes_sociales {
-    background-color: #24224B;
-    padding-top: 50px;
-    text-align: center;
-}
-
-
-.img-redes {
-    width: 250px;
-    margin-bottom:10px;
-    border-radius: 10px;
-}
-
-.icono-redes {
-    width: 35px;
-    padding-top: 6px;
-    margin-left:-6px;
-
-}
-
-.titulo-redes {
-    color: #ffffff;
-    font-family: 'effra-heavy';
-    font-size: 16px;
-    padding-left: 8px;
-    text-align: left;
-}
-
-.redes_sociales2 {
-    margin-top: 60px;
-    padding-bottom: 60px;
-}
-
-.medio-circulo {
-    width: 120px;
-    position: absolute;
-    z-index: 0;
-    left: 1230px;
-    top: 598px;
-}
-
-.circulo-morado {
-    width: 60px;
-    position: absolute;
-    z-index: 0;
-    left: 506px;
-    top: 836px;
-}
-
-.triangulo-naranja {
-    width: 50px;
-    position: absolute;
-    z-index: 0;
-    left: 170px;
-    top: 1505px;
-}
-
-.triangulo-amarillo{
-    width: 70px;
-    position: absolute;
-    z-index: 0;
-    left: 1147px;
-    top: 1322px;
-}
 
 /*Footer*/
 
 .footer1 {
     background-color: #24224B;
     color: #ffffff;
-    font-family: 'effra-regular';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     text-align: center;
     font-size: 14px;
@@ -412,7 +359,7 @@
 .footer2 {
     background-color: #5669A1;
     color: #ffffff;
-    font-family: 'effra-regular';
+    font-family: 'Raleway', sans-serif;
     font-weight: normal;
     text-align: center;
     font-size: 14px;
@@ -421,6 +368,8 @@
     padding-top: 20px;
     margin: auto;
 }
+
+
 /*Fonts*/
 
 @font-face {

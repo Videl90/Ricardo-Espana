@@ -1,0 +1,300 @@
+#wrapper {
+    background-color: #24224B;
+    
+}
+
+.container {
+    max-width: 1180px!important;
+}
+
+/*Navbar Styles*/
+
+.navbar{
+    background-color:#24224B;
+    height: 125px;
+}
+
+.nav-link{
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    margin:18px 30px 0 0;
+}
+
+.formacion{
+    margin-right:200px;
+}
+
+.nav-link:hover {
+    color: #F08031;
+}
+
+.navbar-nav {
+    max-width: 800px;
+    margin: auto;
+}
+
+.logo{
+    width: 80px;
+    position: absolute;
+    z-index: 0;
+    left: 717px;
+    top: 30px;  
+}
+
+/*Banner*/
+
+.logo-row{
+    padding-top: 30px;
+}
+
+.re-logo{
+    height: 30px;
+}
+
+.foto-reconecta{
+    max-width: 1180px;
+    margin: auto;
+    height: 499px;
+    background-image: url("images/reconecta.png");
+}
+
+/*Redes sociales*/
+
+.logo{
+    margin: auto;
+}
+
+.redes_sociales {
+    background-color: #24224B;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.medio-circulo {
+    width: 120px;
+    position: absolute;
+    z-index: 0;
+    left: 1229px;
+    top: 629px;
+}
+
+.circulo-morado {
+    width: 60px;
+    position: absolute;
+    z-index: 0;
+    left: 410px;
+    top: 836px;
+}
+
+.triangulo-naranja {
+    width: 50px;
+    position: absolute;
+    z-index: 0;
+    left: 170px;
+    top: 1505px;
+}
+
+.triangulo-amarillo{
+    width: 70px;
+    position: absolute;
+    z-index: 0;
+    left: 1243px;
+    top: 1322px;
+}
+
+.text4{
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 24px;
+    padding-top:20px;
+    padding-bottom:50px;
+    line-height: 35px;
+}
+
+.a-traves{
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    padding-top:10px;
+}
+
+.img-redes {
+    width: 250px;
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+
+.icono-redes {
+    width: 35px;
+    padding-top: 6px;
+    margin-left:50px;
+
+}
+
+.titulo-redes {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    padding-left: 64px;
+    text-align: left;
+}
+
+.redes_sociales2 {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titulo-contacto {
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 3px;
+    padding-top:48px;
+    padding-left:110px;
+}
+
+.iconos-contacto {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.datos-contacto{
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.col-contacto {
+    max-width: 200px!important;
+}
+
+.contacto2{
+    background-color: #24224B;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+
+.row {
+    margin-left: 0!important;
+}
+
+
+
+/*Footer*/
+
+.footer1 {
+    background-color: #24224B;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14px;
+    max-width: 1180px;
+    height: 60px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.footer2 {
+    background-color: #5669A1;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14px;
+    height: 60px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+/* Media queries*/
+
+@media only screen and (max-width:1199px) {
+   
+}
+
+@media only screen and (max-width:991px) {
+    
+
+}
+
+@media only screen and (max-width:767px) {
+
+    
+}
+
+@media only screen and (max-width:575px) {
+
+    .logo {
+        width: 0;
+    }
+
+    .re-logo {
+        margin-left: 94px;
+    } 
+
+    .triangulo-naranja {
+        width: 50px;
+        position: absolute;
+        z-index: 0;
+        left: 0px;
+        top: 2905px;
+    }
+
+    .circulo-morado {
+        width: 60px;
+        position: absolute;
+        z-index: 0;
+        left: 103px;
+        top: 937px;
+    }
+
+    .triangulo-amarillo {
+        width: 70px;
+        position: absolute;
+        z-index: 0;
+        left: 315px;
+        top: 1322px;
+    }
+
+    .medio-circulo {
+        width: 120px;
+        position: absolute;
+        z-index: 0;
+        left: 320px;
+        top: 1862px;
+    }
+    
+    .col-contacto {
+        max-width: 400px!important;
+        text-align: left;
+        margin-left: 88px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: #24224b;
+        text-align: center;
+    }
+
+    .formacion{
+        margin-right:29px;
+    }
+
+    .navbar-nav {
+        padding-bottom:10px;
+    }
+}
+
