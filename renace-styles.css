@@ -1,0 +1,314 @@
+#wrapper {
+    background-color: #24224B;
+    
+}
+
+.container {
+    max-width: 1180px!important;
+}
+
+/*Navbar Styles*/
+
+.navbar{
+    background-color:#24224B;
+    height: 125px;
+}
+
+.nav-link{
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    margin:18px 30px 0 0;
+}
+
+.formacion{
+    margin-right:200px;
+}
+
+.nav-link:hover {
+    color: #F08031;
+}
+
+.navbar-nav {
+    max-width: 800px;
+    margin: auto;
+}
+
+.logo{
+    width: 80px;
+    position: absolute;
+    z-index: 0;
+    left: 717px;
+    top: 30px;  
+}
+
+/*Banner*/
+
+.logo-row{
+    padding-top: 30px;
+}
+
+.re-logo{
+    height: 30px;
+}
+
+.foto-renace{
+    max-width: 1180px;
+    margin: auto;
+    height: 499px;
+    background-image: url("images/renace.png");
+}
+
+/*Redes sociales*/
+
+.logo{
+    margin: auto;
+}
+
+.redes_sociales {
+    background-color: #24224B;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.text4{
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding-top:40px;
+    padding-bottom:50px;
+    line-height: 35px;
+}
+
+.a-traves{
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    padding-top:10px;
+}
+
+.img-redes {
+    width: 250px;
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+
+.icono-redes {
+    width: 35px;
+    padding-top: 6px;
+    margin-left:50px;
+
+}
+
+.titulo-redes {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    padding-left: 64px;
+    text-align: left;
+}
+
+.redes_sociales2 {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titulo-contacto {
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 3px;
+    padding-top:48px;
+    padding-left:110px;
+}
+
+.iconos-contacto {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.datos-contacto{
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.col-contacto {
+    max-width: 250px!important;
+}
+
+.contacto2{
+    background-color: #24224B;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    max-width: 1519px;
+    padding-left: 50px;
+}
+
+.row {
+    margin-left: 0!important;
+}
+
+.foto-reencuentra{
+    height: 499px;
+    background-image: url("images/reencuentra.png");
+}
+
+.circulos-fondo {
+    width: 600px;
+    position: absolute;
+    z-index: 0;
+    left: 749px;
+    top: 542px;
+}
+
+.cursos-renace {
+    text-align: center;
+    margin-bottom:50px
+}
+
+.cursos {
+    text-align: center;
+}
+
+.svg-curso{
+    width: 50px;
+}
+
+.titulo-curso{
+    color: #F08031;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    margin-top:20px;
+}
+
+.texto-curso{
+    max-width: 295px;
+    margin: auto;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+}
+
+.triangulo-amarillo{
+    width: 51px;
+    position: absolute;
+    z-index: 0;
+    left: 165px;
+    top: 1158px;
+}
+
+
+.img-reencuentra {
+    background-color: #ffffff;
+}
+
+
+
+/*Footer*/
+
+.footer1 {
+    background-color: #24224B;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14px;
+    max-width: 1180px;
+    height: 60px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.footer2 {
+    background-color: #5669A1;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14px;
+    height: 60px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+/* Media queries*/
+
+@media only screen and (max-width:1199px) {
+   
+}
+
+@media only screen and (max-width:991px) {
+    
+
+}
+
+@media only screen and (max-width:767px) {
+
+    
+}
+
+@media only screen and (max-width:575px) {
+
+    .logo {
+        width: 0;
+    }
+
+    .re-logo {
+        margin-left: 141px;
+    } 
+    
+    .col-contacto {
+        max-width: 400px!important;
+        text-align: left;
+        margin-left: 88px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: #24224b;
+        text-align: center;
+    }
+
+    .formacion{
+        margin-right:29px;
+    }
+
+    .navbar-nav {
+        padding-bottom:10px;
+    }
+
+    .triangulo-amarillo {
+        position: absolute;
+        z-index: 0;
+        left: 0px;
+        top: 1836px;
+    }
+    
+    .circulos-fondo {
+        width: 400px;
+        position: absolute;
+        z-index: 0;
+        left: 37px;
+        top: 807px;
+    }
+
+    .contacto2{
+        padding-left: 0px;
+    }
+}

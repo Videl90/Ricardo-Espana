@@ -1,6 +1,5 @@
 #wrapper {
-    max-width: 1180px;
-    margin: auto;
+    background-color: #24224B;
     
 }
 
@@ -12,7 +11,7 @@
 
 .navbar{
     background-color:#24224B;
-    height: 100px;
+    height: 125px;
 }
 
 .nav-link{
@@ -20,6 +19,10 @@
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     margin:18px 30px 0 0;
+}
+
+.formacion{
+    margin-right:200px;
 }
 
 .nav-link:hover {
@@ -32,14 +35,133 @@
 }
 
 .logo{
-    width:80px;
-    margin-right: 30px;
+    width: 80px;
+    position: absolute;
+    z-index: 0;
+    left: 717px;
+    top: 30px;  
+}
+
+/*Banner*/
+
+.logo-row{
+    padding-top: 30px;
+}
+
+.re-logo{
+    height: 30px;
+}
+
+.foto-reencuentra{
+    max-width: 1180px;
+    margin: auto;
+    height: 499px;
+    background-image: url("images/reencuentra.png");
+}
+
+/*Redes sociales*/
+
+.logo{
+    margin: auto;
+}
+
+.redes_sociales {
+    background-color: #24224B;
+    padding-top: 50px;
+    text-align: center;
 }
 
 
-/*Sección Reencuentra*/
+.text4{
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 24px;
+    padding-top:20px;
+    padding-bottom:50px;
+    line-height: 35px;
+}
 
-.lineas-fondo {
+.a-traves{
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    padding-top:10px;
+}
+
+.img-redes {
+    width: 250px;
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+
+.icono-redes {
+    width: 35px;
+    padding-top: 6px;
+    margin-left:50px;
+
+}
+
+.titulo-redes {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    padding-left: 64px;
+    text-align: left;
+}
+
+.redes_sociales2 {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titulo-contacto {
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 3px;
+    padding-top:48px;
+    padding-left:110px;
+}
+
+.iconos-contacto {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.datos-contacto{
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.col-contacto {
+    max-width: 250px!important;
+}
+
+.contacto2{
+    background-color: #24224B;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.row {
+    margin-left: 0!important;
+}
+
+.foto-reencuentra{
+    height: 499px;
+    background-image: url("images/reencuentra.png");
+}
+
+ .lineas-fondo {
     width: 900px;
     position: absolute;
     z-index: 0;
@@ -52,11 +174,13 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
     letter-spacing: 1px;
+    margin-bottom: 32px;
 }
 
 .titulo-herramienta {
     color: #ffffff;
-    font-family: 'effra-heavy';
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     text-align: center;
     letter-spacing: 5px;
     margin-bottom:2px;
@@ -73,6 +197,8 @@
 .img-reencuentra {
     background-color: #ffffff;
 }
+
+
 
 /*Footer*/
 
@@ -96,9 +222,80 @@
     font-weight: normal;
     text-align: center;
     font-size: 14px;
-    max-width: 1180px;
     height: 60px;
     padding-top: 20px;
     margin: auto;
 }
+
+
+/* Media queries*/
+
+@media only screen and (max-width:1199px) {
+   
+}
+
+@media only screen and (max-width:991px) {
+    
+
+}
+
+@media only screen and (max-width:767px) {
+
+    
+}
+
+@media only screen and (max-width:575px) {
+
+    .logo {
+        width: 0;
+    }
+
+    .re-logo {
+        margin-left: 94px;
+    } 
+    
+    .col-contacto {
+        max-width: 400px!important;
+        text-align: left;
+        margin-left: 88px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: #24224b;
+        text-align: center;
+    }
+
+    .formacion{
+        margin-right:29px;
+    }
+
+    .navbar-nav {
+        padding-bottom:10px;
+    }
+
+    .lineas-fondo {
+        width: 900px;
+        position: absolute;
+        z-index: 0;
+        left: -75px;
+        top: 643px;
+    }
+
+    .herramienta{
+        max-width: 377px;
+        margin:auto;
+        background-color: #24224B;
+        padding-left: 39px;
+        padding-bottom: 30px;
+    }
+
+    .img-reencuentra{
+        height: 500px;
+        margin-top: 30px;
+    }
+    
+}
+
+
 

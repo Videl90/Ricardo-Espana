@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricardo España</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="renace-styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -14,22 +14,29 @@
 <body>
     <div id="wrapper">
 
-        <!--Here starts the navbar-->
-        <nav class="navbar navbar-expand-lg">
+          <!--Here starts the navbar-->
+          <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon">
+                    <svg width="20" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke="#81b6ff" fillRule="evenodd" d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                    </svg>
+                  </span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">¿QUIÉN SOY? <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">MI PRÁCTICA</a>
+                  <a class="nav-link formacion" href="#formacion">MI PRÁCTICA</a>
                 </li>
                 <img src="images/logo.png" class="logo">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">SERVICIOS</a>
+                  <a class="nav-link" href="#servicios">SERVICIOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">CONTACTO</a>
+                    <a class="nav-link" href="#contacto">CONTACTO</a>
                 </li>
               </ul>
             </div>
@@ -37,29 +44,37 @@
 
           <!--Banner-->
           <div class="foto-renace">
-            <img src="images/renace_logo.png" class="renace-logo">
+            <div class="row justify-content-md-center logo-row">
+              <img src="svg/logo_renace.svg" class="re-logo">
+            </div>
             <p class="a-traves">a través de <br> <span style="color:#DEA83F">ACOMPAÑAMIENTOS</span></p>
           </div>
 
             <!--Cursos-->
             <div class="container renace">
             <img src="images/circulos.png" class="circulos-fondo">
-              <p class="text4"><span style="font-size: 40px; color:#F08031; font-weight: 800;">"</span>EL <span style="font-weight: bold;">MILAGRO</span> SE DA EN EL <span style="font-weight: bold;">MOMENTO</span><br> QUE LOGRA CAMBIAR LA PERSPECTIVA DE <span style="font-weight: bold;">SITUACIONES<br> Y CONDICIONES</span> DONDE EXISTE UN <span style="font-weight: bold;">CONFLICTO</span><span style="font-size: 40px; color:#F08031; line-height: 29px; font-weight: 800;">"</span></p>
+              <p class="text4">
+                <span style="font-size: 40px; color:#F08031; font-weight: 800;">"</span>
+                EL <span style="font-weight: 800;">MILAGRO</span> SE DA EN EL <span style="font-weight: 800;">MOMENTO</span><br> 
+                QUE LOGRA CAMBIAR LA PERSPECTIVA DE <span style="font-weight: 800;">SITUACIONES<br> 
+                  Y CONDICIONES</span> DONDE EXISTE UN <span style="font-weight: 800;">CONFLICTO</span>
+                  <span style="font-size: 40px; color:#F08031; line-height: 29px; font-weight: 800;">"</span>
+                </p>
               <div class="row">
-                <div class="col cursos-renace">
+                <div class="col-sm cursos-renace">
                   <img src="svg/info.svg" class="svg-curso">
                   <p class="titulo-curso">¿CÓMO FUNCIONAN</p>
                   <p class="texto-curso">Sesiones individuales donde te acompaño usando herramientas como la bioneuroemoción, tanatología, práctica y filosofía de la meditación.
                   </p>
                   <div class="pleca-blanca"></div>
                 </div>
-                <div class="col cursos-renace">
+                <div class="col-sm cursos-renace">
                   <img src="svg/objetivo.svg" class="svg-curso">
                   <p class="titulo-curso">OBJETIVO</p>
                   <p class="texto-curso">Lograr un cambio de perspectiva en aquellas áreas, situaciones o condiciones en donde exista conflicto. Llevando tu perspectiva a una liberación.
                   </p>
                 </div>
-                <div class="col cursos-renace">
+                <div class="col-sm cursos-renace">
                   <img src="svg/requisitos.svg" class="svg-curso">
                   <p class="titulo-curso">REQUISITOS</p>
                   <p class="texto-curso">Querer abrir tu mente al cambio. Es importante que en las sesiones de acompañamiento estés dispuest@ y con apertura.
@@ -67,24 +82,27 @@
                 </div>
               </div>
             </div>    
+
             <!--CONTACTO-->
+            <img src="svg/triangulo2.svg" class="triangulo-amarillo">
             <div class="row justify-content-md-center contacto2">
-              <div class="col col-lg-3">
+              <div class="col-sm col-contacto">
                   <p class="datos-contacto">¡CONTÁCTAME!</p>
               </div>
-              <div class="col col-lg-3">
-                  <img src="svg/ig_morado.svg" class="iconos-contacto">
-                  <p class="datos-contacto">(+52)55 4744.8062</p>
+              <div class="col-sm col-contacto">
+                  <img src="svg/wa_amarillo.svg" class="iconos-contacto">
+                  <p class="datos-contacto">(+52) 55 4744 8062</p>
               </div>
-              <div class="col col-lg-3">
-                  <img src="svg/fb_amarillo.svg" class="iconos-contacto">
-                  <p class="datos-contacto">@contacto@re.com.mx</p>
+              <div class="col-sm col-contacto">
+                  <img src="svg/mail_amarillo.svg" class="iconos-contacto">
+                  <p class="datos-contacto">contacto@re.com.mx</p>
               </div>
-              <div class="col col-lg-3">
-                  <img src="svg/spotify.svg" class="iconos-contacto">
+              <div class="col-sm col-contacto">
+                  <img src="svg/ig_amarillo.svg" class="iconos-contacto">
                   <p class="datos-contacto">@rich_espana</p>
               </div>
-          </div>
+            </div>
+
 
           </div>
 
