@@ -296,5 +296,12 @@
     .navbar-nav {
         padding-bottom:10px;
     }
+
+    .foto-reconecta{
+        max-width: 1180px;
+        margin: auto;
+        height: 499px;
+        background-image: url("images/reconecta_mobil.png");
+    }
 }
 

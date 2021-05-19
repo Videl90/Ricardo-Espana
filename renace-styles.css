@@ -311,4 +311,9 @@
     .contacto2{
         padding-left: 0px;
     }
+
+    .foto-reencuentra{
+        height: 499px;
+        background-image: url("images/reconecta_mobil.png");
+    }
 }
