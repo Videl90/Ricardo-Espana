@@ -159,9 +159,9 @@
     margin-left: 0!important;
 }
 
-.foto-reencuentra{
+.foto-renace{
     height: 499px;
-    background-image: url("images/reencuentra.png");
+    background-image: url("images/renace.png");
 }
 
 .circulos-fondo {
@@ -312,8 +312,7 @@
         padding-left: 0px;
     }
 
-    .foto-reencuentra{
-        height: 499px;
-        background-image: url("images/reconecta_mobil.png");
+    .foto-renace{
+        background-image: url("images/renace_mobil.png");
     }
 }
