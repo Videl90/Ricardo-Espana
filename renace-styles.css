@@ -313,6 +313,11 @@
     }
 
     .foto-renace{
+        width: 436px;
         background-image: url("images/renace_mobil.png");
+    }
+
+    .contacto2{
+        max-width: 436px;
     }
 }
