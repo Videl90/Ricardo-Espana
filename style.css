@@ -18,8 +18,10 @@
     color:#ffffff;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
-    margin:18px 30px 0 0;
+    text-align: center;
+    padding: 23px 30px!important;
 }
+
 
 .formacion2{
     margin-right:200px;
@@ -34,12 +36,14 @@
     margin: auto;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 2.5rem;
+}
+
 .logo{
     width: 80px;
-    position: absolute;
-    z-index: 0;
-    left: 717px;
-    top: 30px;  
+ 
 }
 
 /*video and text styles*/
@@ -49,7 +53,8 @@
 
 .video-intro{
     background-color: #252525;
-    height: 500px;
+    width: 760px;
+    height: 515px;
 }
 
 .banner-ricardo{
@@ -162,23 +167,7 @@
     font-size: 18px;
 }
 
-.pleca-blanca {
-    position: absolute;
-    z-index: 1;
-    left: 565px;
-    top: 2166px;
-    height: 147px;
-    width: 1px;
-}
 
-.pleca-blanca2 {
-    position: absolute;
-    z-index: 1;
-    left: 957px;
-    top: 2166px;
-    height: 147px;
-    width: 1px;
-}
 
 /*Botones servicios styles*/
 
@@ -192,11 +181,30 @@
     text-align: center;
 }
 
+.btn_servicios:hover {
+    animation: bounce 1s linear;
+}
+
+@keyframes bounce{
+    20%, 50%, 80%, to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+}
+
 .triangulo{
     width: 20px;
     position: absolute;
     z-index: 1;
-    left: 177px;
+    left: 188px;
     top: 252px;
 }
 
@@ -285,24 +293,12 @@
     margin: auto;
 }
 
-.footer2 {
-    background-color: #5669A1;
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: normal;
-    text-align: center;
-    font-size: 14px;
-    max-width: 1180px;
-    height: 60px;
-    padding-top: 20px;
-    margin: auto;
-}
+
 
 /* Media queries*/
 
 @media only screen and (max-width:1199px) {
-   
-}
+    
 
 @media only screen and (max-width:991px) {
     
@@ -310,7 +306,6 @@
 }
 
 @media only screen and (max-width:767px) {
-
     
 }
 
@@ -377,6 +372,10 @@
 
     .pleca-blanca2 {
         width: 0px;
+    }
+
+    .banner-ricardo {
+        width: 374px;
     }
 }
 

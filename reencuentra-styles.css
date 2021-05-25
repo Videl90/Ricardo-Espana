@@ -38,7 +38,7 @@
     width: 80px;
     position: absolute;
     z-index: 0;
-    left: 717px;
+    left: 715px;
     top: 30px;  
 }
 
@@ -162,11 +162,11 @@
 }
 
  .lineas-fondo {
-    width: 900px;
+    width: 130px;
     position: absolute;
     z-index: 0;
     left: 170px;
-    top: 643px;
+    top: 1133px;
 }
 
 .herramientas {
@@ -190,12 +190,13 @@
     max-width: 915px;
     margin:auto;
     background-color: #24224B;
-    padding-left: 220px;
+    padding-left: 200px;
     padding-bottom:30px;
 }
 
 .img-reencuentra {
     background-color: #ffffff;
+    margin-left: 20px;
 }
 
 
@@ -231,7 +232,13 @@
 /* Media queries*/
 
 @media only screen and (max-width:1199px) {
-   
+    .logo{
+        width: 80px;
+        position: absolute;
+        z-index: 0;
+        left: 717px;
+        top: 30px;  
+    }
 }
 
 @media only screen and (max-width:991px) {
@@ -275,11 +282,10 @@
     }
 
     .lineas-fondo {
-        width: 900px;
         position: absolute;
         z-index: 0;
         left: -75px;
-        top: 643px;
+        top: 1147px;
     }
 
     .herramienta{
@@ -298,6 +304,8 @@
     .foto-reencuentra{
         background-image: url("images/reencuentra_mobil.png");
     }
+
+    
     
 }
 
