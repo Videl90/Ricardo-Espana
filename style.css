@@ -47,6 +47,14 @@
 }
 
 /*video and text styles*/
+
+.foto-inicio{
+    max-width: 1180px;
+    margin: auto;
+    height: 790px;
+    background-image: url("images/banner_inicio.png");
+}
+
 .bold {
     font-family: 'Raleway', sans-serif;
 }
@@ -57,8 +65,11 @@
     height: 515px;
 }
 
-.banner-ricardo{
-    height: 238px;
+.banner-ricardo2{
+    max-width: 1180px;
+    margin: auto;
+    height: 169px;
+    background-image: url("images/banner_ricardo2.png");
 }
 
 #text-container{
@@ -101,7 +112,7 @@
 
 /*Formación section styles*/
 
-.formacion{
+.formacion {
     height: 900px;
     background-color: #24224B;
     margin-top: 50px;
@@ -376,6 +387,17 @@
 
     .banner-ricardo {
         width: 374px;
+
+    }
+
+    .foto-inicio{
+        background-image: url("images/banner_inicio_mobil.png");
+        height: 720px;
+    }
+
+    .banner-ricardo2{
+        height: 169px;
+        background-image: url("images/banner_ricardo2_mobile.png");
     }
 }
 
