@@ -261,11 +261,22 @@
     margin-bottom: 10px;
 }
 
+
+
 .datos-contacto{
     display: inline;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: #ffffff;
+}
+
+.datos-contacto:hover{
+    color: #F08031;
+    text-decoration: none!important;
+}
+
+a:hover{
+    text-decoration: none!important;
 }
 
 .info {

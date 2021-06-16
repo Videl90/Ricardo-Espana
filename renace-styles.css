@@ -145,6 +145,15 @@
     color: #ffffff;
 }
 
+.datos-contacto:hover{
+    color: #F08031;
+    text-decoration: none!important;
+}
+
+a:hover{
+    text-decoration: none!important;
+}
+
 .col-contacto {
     max-width: 250px!important;
 }

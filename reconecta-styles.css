@@ -188,6 +188,20 @@
     color: #ffffff;
 }
 
+.datos-contacto:hover{
+    color: #F08031;
+    text-decoration: none!important;
+}
+
+a:hover{
+    text-decoration: none!important;
+}
+.titulos-carrusel{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
 .col-contacto {
     max-width: 200px!important;
 }
