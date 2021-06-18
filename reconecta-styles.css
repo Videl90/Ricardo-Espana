@@ -96,7 +96,7 @@
     position: absolute;
     z-index: 0;
     left: 170px;
-    top: 1505px;
+    top: 1671px;
 }
 
 .triangulo-amarillo{
@@ -169,7 +169,6 @@
 .btn-redes {
     background-color:#fabb48;
     color: #ffffff;
-    margin-left: 115px;
 }
 
 .btn-redes:hover{
@@ -279,7 +278,7 @@ a:hover{
         position: absolute;
         z-index: 0;
         left: 0px;
-        top: 2905px;
+        top: 2642px;
     }
 
     .circulo-morado {
@@ -328,6 +327,15 @@ a:hover{
 
     .foto-reconecta{
         background-image: url("images/reconecta_mobil.png");
+    }
+
+    .icono-redes{
+        padding-top: 5px;
+        margin-left: 54px;
+    }
+
+    .titulo-redes{
+        padding-left: 65px;
     }
 }
 
