@@ -82,9 +82,10 @@
     font-weight: 800;
     text-align: center;
     font-size: 24px;
-    padding-top:20px;
+    padding-top:50px;
     padding-bottom:50px;
     line-height: 35px;
+    letter-spacing:1px;
 }
 
 .a-traves{
@@ -201,18 +202,30 @@ a:hover{
 }
 
 .herramienta{
-    max-width: 915px;
+    max-width: 1023px;
     margin:auto;
     background-color: #24224B;
-    padding-left: 200px;
+    padding-left: 112px;
     padding-bottom:30px;
 }
 
 .img-reencuentra {
-    background-color: #ffffff;
+    background-image: url("images/meditacion.jpg");
+    width: 446px;
     margin-left: 20px;
+    height: 534px;
 }
 
+.img-prisma {
+    background-image: url("images/prisma.jpg");
+    width: 446px;
+    margin-left: 20px;
+    height: 534px;
+}
+
+.texto-cursos{
+    padding-top: 50px;
+}
 
 
 /*Footer*/
@@ -299,20 +312,34 @@ a:hover{
     }
 
     .herramienta{
-        max-width: 377px;
+        max-width: 395px;
         margin:auto;
         background-color: #24224B;
         padding-left: 39px;
-        padding-bottom: 30px;
+        padding-bottom: 100px;
+    }
+    
+
+    .img-reencuentra {
+        background-image: url("images/meditacion-mobile.jpg");
+        margin-top: 30px;
+        margin-left: 0px;
+        height: 429px;
     }
 
-    .img-reencuentra{
-        height: 500px;
+    .img-prisma{
+        background-image: url("images/prisma-mobile.jpg");
         margin-top: 30px;
+        margin-left: 0px;
+        height: 429px;
     }
 
     .foto-reencuentra{
         background-image: url("images/reencuentra_mobil.png");
+    }
+
+    .texto-cursos{
+        padding-top: 0px;
     }
 
     
